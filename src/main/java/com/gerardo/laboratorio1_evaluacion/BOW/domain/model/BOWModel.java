@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class BOWModel {
+    private Long id;
     private String name;
     private VirusBase base;
     private int hazardLevel;
