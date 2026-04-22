@@ -21,4 +21,11 @@ public class BOWModel {
     private Status currentStatus;
     private Location lastLocation;
     private Location nextExpectedLocation;
+
+
+    public void printReport() {
+        String prefix = "[S.T.A.R.S-REPORT]";
+        System.out.println(
+                prefix + " Nombre: " + this.getName() + " | " + "Nivel de pelibro: " + this.getHazardLevel() + " | " + "Punto débil: " + this.getWeakPoint());
+    }
 }
